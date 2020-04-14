@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Top Content */
+main {
+    background: #286df5;
+}
+main, #left-content {
+    overflow: hidden;
+}
+section {
+    width: 90%;
+    margin: 2rem 8rem 0 ;
+}
+section, #left-content, #right-content {
+    box-sizing: border-box;
+}
+#left-content, #right-content {
+    width: 45%;
+    height: 832px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+/* Left Content */
+#left-content {
+    background: #f3f6f9;
+    padding: 2rem 5rem;
+} 
+#left-content, #right-content, footer p, footer a {
+   float: left;
+}
+#left-content a img {
+    width: 60px;
+    height: 60px;
+    margin: 1.1rem 0 0 -2rem;
+}
+#left-content a h5 {
+    color: #0069ff;
+    font-size: 1.1rem;
+    margin: -3.2rem 0 2rem 2rem;
+}
+#left-content h1 {
+    margin: 0;
+    letter-spacing: -0.1rem;
+    font: normal bold 2.7rem Tahoma;
+}
+#left-content p {
+    color: #9b9ea0;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    margin-bottom: 3.5rem;
+}
+#left-content #bottom-img {
+    width: 100%;
+    opacity: 0.5;
+}
+/* Right Content */
+#right-content {
+    background: #fff;
+    text-align: center;
+    padding-top: 129px;
+}
+#right-content h3 {
+    color: #0069ff;
+    font-size: 1.7rem;
+    margin-left: 3rem;
+}
+#right-content ul li {
+    color: #888a8c;
+    margin-left: 6.5rem;
+    text-align: justify;
+    list-style: circle inside;
+}
+#right-content form {
+    margin: 3rem 0 0 3rem;
+}
+#right-content form input {
+    margin-bottom: 12px;
+    padding: 12px 85px 12px 11px;
+    border: 1px solid #eae7e7;
+    box-shadow: 0 1px 2px 0 #eae7e7, 0 1.5px 5px 0 #eae7e7;
+}
+#right-content form input::placeholder {
+    font-size: 0.95rem;
+    color: lightslategray;
+}
+#right-content form button {
+    border: none;
+    color: white;
+    padding: 13px 72px;
+    border-radius: 7px;
+    background: #15cd72;
+}
+/* Footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    color: white;
+    position: fixed;
+    overflow: hidden;
+    padding: 0 15rem ;
+    background: #031b4e;
+}
+footer p {
+    font-size: 0.9rem;
+    margin-right: 71px;
+}
+footer a {
+    width: 70px;
+    height: 35px;
+    color: white;
+    margin-top: 27px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    background: #123cff;
+    text-decoration: none;
+}
